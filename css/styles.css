@@ -1,0 +1,207 @@
+:root {
+    --color-logo: #000000;
+    --color-text-primary: #212121;
+    --color-text-secondary: #757575;
+    --color-akcent: #2196F3;
+    --color-text-footer: #ffffff99;
+    --background-color-primary: #FFFFFF;
+    --background-color-secondary: #F5F4FA;
+    --background-color-akcent: #2F303A;
+    --background-color-akcent-secondary: #188ce8;
+}
+body {
+    color: var(--color-text-primary);
+    background-color: var(--background-color-primary);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.logo {
+    color: var(--color-akcent);
+}
+.logo-studio {
+    color: var(--color-logo);
+}
+.logo,
+.logo-studio
+ {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.main-button {
+    color: var(--background-color-primary);
+    background-color: var(--color-akcent);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+.main-button:hover,
+.main-button:focus {
+    background-color: var(--background-color-akcent-secondary);
+}
+/* contacts */
+.contakt-link {
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contakt-link:hover {
+    color: var(--color-akcent);
+}
+.contakt-link:focus {
+    color: var(--color-akcent);
+}
+/* site nav */
+.site-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-studio,
+.nav-page {
+    color: var(--color-text-primary);
+}
+.nav-studio:hover,
+.nav-studio:focus {
+    color: var(--color-akcent);
+}
+.nav-page:hover,
+.nav-page:focus {
+    color: var(--color-akcent);
+}
+.nav-studio:visited {
+    color: var(--color-akcent);
+}
+/* main */
+.main, 
+.footer {
+    background-color: var(--background-color-akcent);
+}
+.main-title {
+    color: var(--background-color-primary);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button {
+    color: var(--background-color-primary);
+    background-color: var(--background-color-secondary);
+    cursor: pointer;
+}
+/*features*/
+.features-title {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.section-text {
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    line-height: 1.71;
+}
+/* what we do */
+.section-title {
+    color: var(--color-text-primary);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+/* our team */
+.section {
+    background-color: var(--background-color-secondary);
+}
+.section-image {
+    background-color: var(--background-color-primary);
+}
+.members-name {
+    color: var(--color-text-primary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.section-position {
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+/* portfolio */
+.button-portfolio {
+    color: var(--color-text-primary);
+    background-color: var(--background-color-secondary);
+    font-family: inherit;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--background-color-primary);
+    background-color: var(--color-akcent);
+}
+.section-project {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+ /* footer */
+.logo-footer {
+    color: var(--color-akcent);
+}
+.logo-studiof {
+    color: var(--background-color-primary);
+}
+.logo-footer,
+.logo-studiof {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.footer-adress {
+    color: var(--background-color-primary);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.footer-info {
+    color: var(--color-text-footer);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.footer-info:hover,
+.footer-info:focus {
+    color: var(--color-akcent);
+}
