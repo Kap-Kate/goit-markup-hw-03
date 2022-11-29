@@ -172,6 +172,9 @@ ul {
     text-align: center;
 }
 /* portfolio */
+.portfolio {
+    margin-bottom: 95px;
+}
 .header {
     margin-bottom: 95px;
 }
@@ -196,11 +199,15 @@ ul {
     background-color: var(--color-akcent);
 }
 .section-project {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 .project-text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
