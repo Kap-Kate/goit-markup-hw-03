@@ -8,6 +8,7 @@
     --background-color-secondary: #F5F4FA;
     --background-color-akcent: #2F303A;
     --background-color-akcent-secondary: #188ce8;
+    --header-border-color:#ECECEC;
     --border-color: #EEEEEE;
 }
 body {
@@ -50,6 +51,7 @@ img {
 .header-container {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid var(--header-border-color) ;
 }
 /*header*/
 .logo {
@@ -199,15 +201,27 @@ img {
 .what-we-do {
     display: flex;
 }
-.what-we-do .item.item:not(:last-child) {
+.what-we-do .item {
     margin-right: 30px;
+}
+.what-we-do .item:nth-child(3n) {
+    margin-right: 0;
 }
 /* our team */
 /* .section {
     background-color: var(--background-color-secondary); */
+.team {
+    display: flex;
+}
 
 .section-image {
     background-color: var(--background-color-primary);
+}
+.team .section-image {
+    margin-right: 30px;
+}
+.team .section-image:nth-child(4n) {
+    margin-right: 0;
 }
 .members-name {
     color: var(--color-text-primary);
