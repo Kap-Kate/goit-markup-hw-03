@@ -48,10 +48,6 @@ p {
     justify-content: space-between;
 }
 
-
-
-
-
 .logo {
     color: var(--color-akcent);
 }
@@ -60,11 +56,14 @@ p {
 }
 .logo,
 .logo-studio {
+    margin-right: 93px;
+    
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+
 }
 .main-button {
     color: var(--background-color-primary);
@@ -84,29 +83,42 @@ p {
     background-color: var(--background-color-akcent-secondary);
 }
 /* contacts */
-.contakt-link {
+.container-contacts {
+    display: flex;
+}
+.container-contacts .item + .item {
+    margin-left: 40px;
+}
+.contact-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--color-text-secondary);
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.contakt-link:hover {
+.contact-link:hover {
     color: var(--color-akcent);
 }
-.contakt-link:focus {
+.contact-link:focus {
     color: var(--color-akcent);
 }
 /* site nav */
 .site-nav-list {
     display: flex;
 }
-.site-nav-list .item {
-    margin-right: 50px;
-    outline: 1px solid red;
 
+.site-nav-list .item:not(:last-child) {
+    margin-right: 50px;
 }
 .site-nav-link {
+    display: flex;
+    align-items: center;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -114,7 +126,12 @@ p {
 }
 .nav-studio,
 .nav-page {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--color-text-primary);
+    
 }
 
 .nav-studio:hover,
@@ -137,6 +154,7 @@ p {
 }
 .main-title {
     color: var(--background-color-primary);
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
