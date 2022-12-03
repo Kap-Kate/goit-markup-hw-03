@@ -48,10 +48,9 @@ img {
     padding-right: 15px;
 }
 /* header container */
-.header-container {
+.container.header-container {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid var(--header-border-color) ;
 }
 /*header*/
 .logo {
@@ -212,7 +211,7 @@ img {
     margin-right: 0;
 }
 /* our team */
-.section-team {
+.section.section-team {
     background-color: var(--background-color-secondary);
 }
 .team {
@@ -246,6 +245,13 @@ img {
     text-align: center;
 }
 /* portfolio */
+.header-portfolio {
+    border-bottom: 1px solid var(--header-border-color);
+}
+.container.portfolio {
+    display: flex;
+    justify-content: space-between;
+}
 .button-flex {
     display: flex;
     margin-bottom: 50px;
@@ -350,7 +356,7 @@ img {
     margin-bottom: 12px;
 }
 
-.section, .section-team {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
