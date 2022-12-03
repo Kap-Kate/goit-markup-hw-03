@@ -238,11 +238,18 @@ img {
     text-align: center;
 }
 /* portfolio */
+.button-flex {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
 .button-portfolio {
+    padding: 6px 22px;
     color: var(--color-text-primary);
     background-color: var(--background-color-secondary);
     font-family: inherit;
     border: none;
+    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -254,6 +261,10 @@ img {
     color: var(--background-color-primary);
     background-color: var(--color-akcent);
 }
+.button-flex .item:not(:last-child) {
+    margin-right: 8px;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -269,6 +280,7 @@ img {
     margin-bottom: 0;
 }
 .section-project {
+    margin-bottom: 4px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -282,6 +294,7 @@ img {
 .portfolio-card {
     border: 1px solid var(--border-color);
     border-top: 0;
+    padding: 20px 24px;
 }
 /* footer */
 .logo-footer {
@@ -300,12 +313,16 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+.footer-title {
+    margin-bottom: 28px;
+}
 
 .footer-adress {
     color: var(--background-color-primary);
     font-style: normal;
     font-size: 14px;
     line-height: 1.14;
+    margin-bottom: 12px;
 }
 .footer-info {
     color: var(--color-text-footer);
@@ -317,6 +334,9 @@ img {
 .footer-info:hover,
 .footer-info:focus {
     color: var(--color-akcent);
+}
+.footer-contacts .item:nth-last-child(2) {
+    margin-bottom: 12px;
 }
 
 .section {
